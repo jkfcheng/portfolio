@@ -10,3 +10,7 @@ import Foundation from 'foundation-sites';
 
 
 $(document).foundation();
+
+  $(document).ready(function(){
+    $('.single-item').slick();
+  });
