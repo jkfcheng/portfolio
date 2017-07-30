@@ -5,6 +5,21 @@
   font-size: rem-calc(14);
 }
 
+.button {
+  font-weight: $global-weight-bold;
+  padding-left: rem-calc(20);
+  padding-right: rem-calc(20);
+}
+
+.landing {
+  h1 {
+  }
+
+  h3 {
+    color: $landing-extra-dark;
+  }
+}
+
 .greenbits {
   .section-title {
   color: $greenbits-dark;
@@ -16,16 +31,19 @@
   .section-title {
   color: $dematic-dark;
   } 
+
 }
 
 .tmw {
   .section-title {
   color: $tmw-dark;
   } 
+
 }
 
 .bb {
   .section-title {
   color: $bb-dark;
   }
+
 }
