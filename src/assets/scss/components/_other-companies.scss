@@ -6,21 +6,23 @@
 	align-items: center;
 	font-family: "futura-pt";
 	margin: 0 2rem;	
+  color: $light-gray;
+  font-weight: $global-weight-bold;
 }
 
 
 .word-divider::before {
 	content: '';
-	height: 1px;
-	background: black;
+	height: 1.5px;
+	background: $light-gray;
 	flex: 1;
 	margin: 0 1rem 0 0;
 }
 
 .word-divider::after {
 	content: '';
-  height: 1px;
-  background: black;
+  height: 1.5px;
+  background: $light-gray;
   flex: 1;
   margin: 0 0 0 1rem;
 }
