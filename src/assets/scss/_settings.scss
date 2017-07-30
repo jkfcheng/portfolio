@@ -65,11 +65,11 @@
 // 1. Global
 // ---------
 
-$global-font-size: 100%;
-$global-width: rem-calc(1200);
+$global-font-size: 90%;
+$global-width: rem-calc(1024);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
+  primary: #0170F0,
   secondary: #767676,
   success: #3adb76,
   warning: #ffae00,
@@ -80,6 +80,25 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
+$landing-light: #F6F7F8;
+$landing-dark: #385462;
+$landing-extra-dark: #18325F;
+$greenbits-light: #E9EEED;
+$greenbits-medium: #B7C7C3;
+$greenbits-dark: #6F8F88;
+$greenbits-extra-dark: #222A28;
+$dematic-light: #EBEBF2;
+$dematic-medium: #A6A6BB;
+$dematic-dark: #6F6F8F;
+$dematic-extra-dark: #272748;
+$tmw-light: #F2F0EB;
+$tmw-medium: #C7C2B7;
+$tmw-dark: #8F866F;
+$tmw-extra-dark: #313131;
+$bb-light: #EBEFF2;
+$bb-medium: #B7C1C7;
+$bb-dark: #6F848F;
+$bb-extra-dark: #1E323D;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
@@ -89,7 +108,7 @@ $global-padding: 1rem;
 $global-position: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
-$global-radius: 0;
+$global-radius: 50px;
 $global-menu-padding: 0.7rem 1rem;
 $global-menu-nested-margin: 1rem;
 $global-text-direction: ltr;
@@ -138,17 +157,17 @@ $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
-    'h1': ('font-size': 24),
-    'h2': ('font-size': 20),
-    'h3': ('font-size': 19),
-    'h4': ('font-size': 18),
-    'h5': ('font-size': 17),
-    'h6': ('font-size': 16),
+    'h1': ('font-size': 22),
+    'h2': ('font-size': 18),
+    'h3': ('font-size': 16),
+    'h4': ('font-size': 15),
+    'h5': ('font-size': 14),
+    'h6': ('font-size': 13),
   ),
   medium: (
-    'h1': ('font-size': 48),
-    'h2': ('font-size': 40),
-    'h3': ('font-size': 31),
+    'h1': ('font-size': 42),
+    'h2': ('font-size': 36),
+    'h3': ('font-size': 20),
     'h4': ('font-size': 25),
     'h5': ('font-size': 20),
     'h6': ('font-size': 16),

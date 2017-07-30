@@ -1,66 +1,109 @@
+//header 
+
+.header {
+  color: white;
+  min-height: 70vh; 
+}
+
+//sections
 
 .color-section, 
 .white-section {
-
+  padding-top: rem-calc(100);
+  padding-bottom: rem-calc(100);
 }
-
-.color-section {
-
-}
-
-
-
-//header 
-
-.landing-header {
-
-
-}
-
-.case-study-header {
-
-}
-
-.greenbits-header {
-
-}
-
-.dematic-header {
-
-}
-
-.tmw-header {
-
-}
-
-.building-blocks-header {
-
-}
-
-
 
 //footers
 
-.landing-footer {
+.footer {
+  color: $white;
+}
+
+//page-specific layout styling
+
+.landing {
+  .header {
+    color: $landing-extra-dark;
+    background-color: $landing-light;
+  }
+
+  .color-section {
+    background-color: $landing-light;
+  }
+
+  .footer {
+    background-color: $landing-dark;
+  }
+}
+
+.greenbits {
+  .header {
+    background-color: $greenbits-dark;  
+  }
+
+  .color-section {
+    background-color: $greenbits-light;
+  }
+
+  .footer {
+    background-color: $greenbits-extra-dark;
+  }
+}
+
+.dematic {
+  .header {
+    background-color: $dematic-dark;
+  }
+
+  .color-section {
+    background-color: $dematic-light;
+  } 
+
+  .footer {
+    background-color: $dematic-extra-dark;
+  }
+}
+
+.tmw {
+  .header {
+    background-color: $tmw-dark;
+  }
+
+  .color-section {
+    background-color: $tmw-light;
+  }
+
+  .footer {
+    background-color: $tmw-extra-dark;
+  }
 
 }
 
-.case-study-footer {
+.bb {
+  .header {
+    background-color: $bb-dark;
+  }
+
+  .color-section {
+    background-color: $bb-light;
+  }
+
+  .footer {
+    background-color: $bb-extra-dark;
+  }
 
 }
 
-.greenbits-footer {
 
-}
 
-.dematic-footer {
 
-}
 
-.tmw-footer {
 
-}
 
-.building-blocks-footer {
 
-}
+
+
+
+
+
+

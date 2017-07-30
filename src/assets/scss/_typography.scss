@@ -1,0 +1,31 @@
+.section-title {
+  color: $white;
+  text-transform: uppercase;
+  font-weight: $global-weight-bold;
+  font-size: rem-calc(14);
+}
+
+.greenbits {
+  .section-title {
+  color: $greenbits-dark;
+  }
+
+}
+
+.dematic {
+  .section-title {
+  color: $dematic-dark;
+  } 
+}
+
+.tmw {
+  .section-title {
+  color: $tmw-dark;
+  } 
+}
+
+.bb {
+  .section-title {
+  color: $bb-dark;
+  }
+}
