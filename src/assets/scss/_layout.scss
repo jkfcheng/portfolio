@@ -76,12 +76,12 @@ $global-section-padding: rem-calc(120);
 .dematic {
   .header {
     @include breakpoint(large) {
-      background-size: 40vw auto;
+      background-size: auto 60vh;
       background-position: 40vw 15vh;
     }
 
     background-color: $dematic-dark;
-    background-size: 60vw auto;
+    background-size: auto 60%;
     background-position: 35vw 15vh; 
     background-image: url(../img/dematic/dematic-header.png);
     background-repeat: no-repeat;
@@ -123,13 +123,13 @@ $global-section-padding: rem-calc(120);
 .bb {
   .header {
     @include breakpoint(large) {
-      background-size: 70vw auto;
-      background-position: 20vw 25vh;
+      background-size: auto 60vh;
+      background-position: 40vw 15vh;
     }
 
     background-color: $bb-dark;
-    background-size: 85vw auto;
-    background-position: 10vw 25vh; 
+    background-size: auto 60%;
+    background-position: 35vw 15vh;  
     background-image: url(../img/bb/bb-header.png);
     background-repeat: no-repeat;
   }

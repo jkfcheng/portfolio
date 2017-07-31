@@ -17,8 +17,8 @@
 .cs-header-title-slim {
   @extend .cs-header-title;
   @include breakpoint(large) {
-    max-width: 30%;
+    max-width: 35%;
   }
 
-  max-width: 40%;
+  max-width: 30%;
 }
