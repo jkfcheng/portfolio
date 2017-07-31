@@ -5,31 +5,121 @@
 }
 
 .greenbits-app {
-  background: url(../img/landing/greenbits-app.png);
-  background-size: auto 80%;
-  background-position: 110% center;
-  background-repeat: no-repeat;
+  @include breakpoint(xxlarge) {
+    background: url(../img/landing/greenbits-app.png);
+    background-size: auto 70%;
+    background-position: 75% center;
+    background-repeat: no-repeat;
+  }
+
+  @include breakpoint(xlarge only) {
+    background: url(../img/landing/greenbits-app.png);
+    background-size: auto 70%;
+    background-position: 90% center;
+    background-repeat: no-repeat;  
+  }
+
+  @include breakpoint(large only) {
+    background: url(../img/landing/greenbits-app.png);
+    background-size: 55% auto;
+    background-position: 110% center;
+    background-repeat: no-repeat;
+  }
+
+  @include breakpoint(medium only) {
+    background: url(../img/landing/greenbits-app.png);
+    background-size: 60% auto;
+    background-position: 110% center;
+    background-repeat: no-repeat;
+  }
 }
 
 .dematic-app {
-  background: url(../img/landing/dematic-app.png);
-  background-size: auto 90%;
-  background-position: 95% center;
-  background-repeat: no-repeat;
+  @include breakpoint(xxlarge) {
+    background: url(../img/landing/dematic-app.png);
+    background-size: auto 95%;
+    background-position: 75% center;
+    background-repeat: no-repeat;
+  }
+
+  @include breakpoint(xlarge only) {
+    background: url(../img/landing/dematic-app.png);
+    background-size: auto 95%;
+    background-position: 90% center;
+    background-repeat: no-repeat;
+  }
+  
+  @include breakpoint(large only) {
+    background: url(../img/landing/dematic-app.png);
+    background-size: 40% auto;
+    background-position: 95% center;
+    background-repeat: no-repeat;
+  }
+  @include breakpoint(medium only) {
+    background: url(../img/landing/dematic-app.png);
+    background-size: 55% auto;
+    background-position: 95% center;
+    background-repeat: no-repeat;
+  }
 }
 
 .tmw-app {
-  background: url(../img/landing/tmw-app.png);
-  background-size: auto 80%;
-  background-position: 110% center;
-  background-repeat: no-repeat;
+  @include breakpoint(xxlarge) {
+    background: url(../img/landing/tmw-app.png);
+    background-size: auto 70%;
+    background-position: 75% center;
+    background-repeat: no-repeat;
+  }
+
+  @include breakpoint(xlarge only) {
+    background: url(../img/landing/tmw-app.png);
+    background-size: auto 70%;
+    background-position: 90% center;
+    background-repeat: no-repeat;  
+  }
+
+  @include breakpoint(large only) {
+    background: url(../img/landing/tmw-app.png);
+    background-size: 55% auto;
+    background-position: 110% center;
+    background-repeat: no-repeat;
+  }
+
+  @include breakpoint(medium only) {
+    background: url(../img/landing/tmw-app.png);
+    background-size: 60% auto;
+    background-position: 110% center;
+    background-repeat: no-repeat;
+  }
 }
 
 .bb-app {
-  background: url(../img/landing/bb-app.png);
-  background-size: auto 90%;
-  background-position: 95% center;
-  background-repeat: no-repeat;
+    @include breakpoint(xxlarge) {
+    background: url(../img/landing/bb-app.png);
+    background-size: auto 95%;
+    background-position: 75% center;
+    background-repeat: no-repeat;
+  }
+
+  @include breakpoint(xlarge only) {
+    background: url(../img/landing/bb-app.png);
+    background-size: auto 95%;
+    background-position: 90% center;
+    background-repeat: no-repeat;
+  }
+  
+  @include breakpoint(large only) {
+    background: url(../img/landing/bb-app.png);
+    background-size: 40% auto;
+    background-position: 95% center;
+    background-repeat: no-repeat;
+  }
+  @include breakpoint(medium only) {
+    background: url(../img/landing/bb-app.png);
+    background-size: 55% auto;
+    background-position: 95% center;
+    background-repeat: no-repeat;
+  }
 }
 
 .landing-product-description {

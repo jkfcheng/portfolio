@@ -3,16 +3,18 @@ $global-section-padding: rem-calc(120);
 
 .header {
   @include breakpoint(medium) {
-    min-height: 70vh; 
+    height: 70vh; 
   }
 
   color: white;
 }
 
 .header-card {
+  height: 100%;
   background-color: $white;
-  padding-top: $global-section-padding;
-  padding-bottom: $global-section-padding;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 //sections
