@@ -1,0 +1,24 @@
+
+
+.cs-header-title {
+  @include breakpoint(large) {
+    max-width: 50%;
+    margin-left: 0;
+    margin-top: 20vh;
+  }
+
+  font-weight: 700;
+  max-width: 70%;
+  margin-top: 15vh;
+  margin-bottom: 20vh;
+  margin-left: 1rem;
+}
+
+.cs-header-title-slim {
+  @extend .cs-header-title;
+  @include breakpoint(large) {
+    max-width: 30%;
+  }
+
+  max-width: 40%;
+}
