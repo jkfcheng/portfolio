@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="293px" height="224px" viewBox="0 0 293 224" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>research</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-177.000000, -553.000000)">
+            <g id="research" transform="translate(178.000000, 555.000000)">
+                <g id="Group-3">
+                    <g id="Rectangle-2-+-Rectangle-2-Copy-+-Line-+-Oval-+-Oval-Copy-+-Oval-Copy-2-+-Rectangle-4-+-Rectangle-4-Copy-+-Rectangle-4-Copy-3-+-Rectangle-4-Copy-4-+-Rectangle-4-Copy-2-+-Group-+-Group-Copy-+-Group-Copy-2-+-Group-Copy-3-+-Rectangle-6-+-Rectangle-6-Copy-+-Rectangle-7-+-Rectangle-8-+-Rectangle-9-+-Rectangle-9-Copy-Mask">
+                        <path d="M267,32.2253766 L266.943882,34.6396147 M267,45.4941624 L267,210 C267,212.209139 265.209139,214 263,214 L5,214 C2.790861,214 1,212.209139 1,210 L1,4 C1,1.790861 2.790861,0 5,0 L263,0 C265.209139,0 267,1.790861 267,4 L267,21.9256273" id="Mask" stroke="#D2D5DB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <rect id="Rectangle-2" stroke="#D2D5DB" x="10.5" y="53.5" width="167.618659" height="136" rx="4"></rect>
+                        <rect id="Rectangle-2-Copy" stroke="#D2D5DB" x="10.5" y="199.5" width="167.618659" height="16" rx="4"></rect>
+                        <path d="M0.5,17 L266.5,17" id="Line" stroke="#D2D5DB" stroke-width="2" stroke-linecap="square"></path>
+                        <circle id="Oval" stroke="#D2D5DB" cx="11" cy="9" r="3"></circle>
+                        <circle id="Oval-Copy" stroke="#D2D5DB" cx="21" cy="9" r="3"></circle>
+                        <circle id="Oval-Copy-2" stroke="#D2D5DB" cx="31" cy="9" r="3"></circle>
+                        <rect id="Rectangle-4" fill="#D2D5DB" x="35" y="98" width="14.1078806" height="73" rx="4"></rect>
+                        <rect id="Rectangle-4-Copy" fill="#D2D5DB" x="60.75" y="124" width="14.1078806" height="46.5" rx="4"></rect>
+                        <rect id="Rectangle-4-Copy-3" fill="#D2D5DB" x="112.25" y="135" width="14.1078806" height="35.7068832" rx="4"></rect>
+                        <rect id="Rectangle-4-Copy-4" fill="#D2D5DB" x="138" y="110" width="14.1078806" height="60.7068832" rx="4"></rect>
+                        <rect id="Rectangle-4-Copy-2" fill="#D2D5DB" x="86.5" y="80" width="14.1078806" height="90.5" rx="4"></rect>
+                        <g id="Group" transform="translate(191.000000, 54.000000)">
+                            <rect id="Rectangle-3" fill="#E4E6EA" x="0" y="10" width="61" height="3" rx="1.5"></rect>
+                            <rect id="Rectangle-3-Copy" fill="#E4E6EA" x="0" y="17" width="61" height="3" rx="1.5"></rect>
+                            <rect id="Rectangle-3-Copy-2" fill="#E4E6EA" x="0" y="24" width="27.9991149" height="3" rx="1.5"></rect>
+                            <rect id="Rectangle-5" fill="#D2D5DB" x="0" y="0" width="29" height="5"></rect>
+                        </g>
+                        <g id="Group-Copy" transform="translate(191.000000, 96.000000)">
+                            <rect id="Rectangle-3" fill="#E4E6EA" x="0" y="10" width="61" height="3" rx="1.5"></rect>
+                            <rect id="Rectangle-3-Copy" fill="#E4E6EA" x="0" y="17" width="61" height="3" rx="1.5"></rect>
+                            <rect id="Rectangle-3-Copy-2" fill="#E4E6EA" x="0" y="24" width="27.9991149" height="3" rx="1.5"></rect>
+                            <rect id="Rectangle-5" fill="#D2D5DB" x="0" y="0" width="29" height="5"></rect>
+                        </g>
+                        <g id="Group-Copy-2" transform="translate(191.000000, 138.000000)">
+                            <rect id="Rectangle-3" fill="#E4E6EA" x="0" y="10" width="61" height="3" rx="1.5"></rect>
+                            <rect id="Rectangle-3-Copy" fill="#E4E6EA" x="0" y="17" width="61" height="3" rx="1.5"></rect>
+                            <rect id="Rectangle-3-Copy-2" fill="#E4E6EA" x="0" y="24" width="27.9991149" height="3" rx="1.5"></rect>
+                            <rect id="Rectangle-5" fill="#D2D5DB" x="0" y="0" width="29" height="5"></rect>
+                        </g>
+                        <g id="Group-Copy-3" transform="translate(191.000000, 180.000000)">
+                            <rect id="Rectangle-3" fill="#E4E6EA" x="0" y="10" width="61" height="3" rx="1.5"></rect>
+                            <rect id="Rectangle-3-Copy" fill="#E4E6EA" x="0" y="17" width="61" height="3" rx="1.5"></rect>
+                            <rect id="Rectangle-3-Copy-2" fill="#E4E6EA" x="0" y="24" width="27.9991149" height="3" rx="1.5"></rect>
+                            <rect id="Rectangle-5" fill="#D2D5DB" x="0" y="0" width="29" height="5"></rect>
+                        </g>
+                        <rect id="Rectangle-6" fill="#D2D5DB" x="223" y="23" width="36" height="11.8780208" rx="5.9390104"></rect>
+                        <rect id="Rectangle-6-Copy" stroke="#D2D5DB" x="184.5" y="23.5" width="35" height="10.8780208" rx="5.4390104"></rect>
+                        <rect id="Rectangle-7" fill="#D2D5DB" x="12" y="25" width="85" height="8"></rect>
+                        <rect id="Rectangle-8" fill-opacity="0.605355525" fill="#D2D5DB" x="12" y="37" width="20" height="2" rx="1"></rect>
+                        <rect id="Rectangle-9" fill="#D2D5DB" x="190" y="28" width="23" height="2" rx="1"></rect>
+                        <rect id="Rectangle-9-Copy" fill="#FFFFFF" x="229" y="28" width="23" height="2" rx="1"></rect>
+                    </g>
+                </g>
+                <path d="M275.003004,181.818392 L288.915472,214.322931 C289.128378,214.820358 289.238153,215.355808 289.238153,215.896883 C289.238153,218.106022 287.447292,219.896883 285.238153,219.896883 L285.238153,219.896883 L248.592441,219.896883 C248.053289,219.896883 247.519701,219.787888 247.02374,219.576445 C244.991574,218.710076 244.046509,216.360348 244.912879,214.328182 L258.836994,181.667626 L258.836994,149.429932 L258.836994,149.429932 C258.836994,147.220793 260.627855,145.429932 262.836994,145.429932 L271.003004,145.429932 C273.212143,145.429932 275.003004,147.220793 275.003004,149.429932 L275.003004,181.818392 Z" id="Combined-Shape" stroke="#D2D5DB" stroke-width="4" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

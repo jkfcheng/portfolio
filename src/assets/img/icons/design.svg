@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="292px" height="229px" viewBox="0 0 292 229" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>design</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="61.3406503" height="81.0480236" rx="4"></rect>
+        <rect id="path-3" x="0" y="0" width="144" height="87" rx="4"></rect>
+    </defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-556.000000, -553.000000)">
+            <g id="design" transform="translate(557.000000, 555.000000)">
+                <g id="Line-+-Oval-+-Oval-Copy-+-Oval-Copy-2-+-Line-2-+-Line-2-Copy-Mask-+-Line-2-+-Line-2-Copy-Mask-Copy-+-Line-2-+-Line-2-Copy-Mask-Copy-Copy-+-Combined-Shape-+-Line-3-+-Group-4-+-Group-4-Copy-Mask">
+                    <path d="M200.711751,1.72084569e-15 L205.917431,1.72084569e-15 M217.827387,1.77635684e-15 L264,1.77635684e-15 C266.209139,2.25871839e-15 268,1.790861 268,4 C268,64.5561069 268,109.973187 268,140.251241 C268,155.750965 268,179.000551 268,210 C268,212.209139 266.209139,214 264,214 C252.65097,214 244.139198,214 238.464683,214 C186.583643,214 108.762082,214 5,214 C2.790861,214 1,212.209139 1,210 L1,4 C1,1.790861 2.790861,4.05816873e-16 5,0 L189.174978,0" id="Mask" stroke="#D2D5DB" stroke-width="4" stroke-linecap="round"></path>
+                    <g id="Line-2-+-Line-2-Copy-Mask-Copy" transform="translate(25.000000, 134.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" stroke="#D2D5DB" xlink:href="#path-1"></use>
+                        <path d="M0.212988369,0.5 L61.1276619,85.5" id="Line-2" stroke="#D2D5DB" stroke-linecap="square" mask="url(#mask-2)"></path>
+                        <path d="M0.212988369,0.5 L61.1276619,85.5" id="Line-2-Copy" stroke="#D2D5DB" stroke-linecap="square" mask="url(#mask-2)" transform="translate(30.670325, 43.000000) scale(-1, 1) translate(-30.670325, -43.000000) "></path>
+                    </g>
+                    <path d="M0.5,17 L268.5,17" id="Line" stroke="#D2D5DB" stroke-width="2" stroke-linecap="square"></path>
+                    <circle id="Oval" stroke="#D2D5DB" cx="12" cy="9" r="3"></circle>
+                    <circle id="Oval-Copy" stroke="#D2D5DB" cx="22" cy="9" r="3"></circle>
+                    <circle id="Oval-Copy-2" stroke="#D2D5DB" cx="32" cy="9" r="3"></circle>
+                    <g id="Line-2-+-Line-2-Copy-Mask" transform="translate(25.000000, 28.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" stroke="#D2D5DB" fill="#FFFFFF" xlink:href="#path-3"></use>
+                        <path d="M0.5,0.5 L143.5,85.5" id="Line-2" stroke="#D2D5DB" stroke-linecap="square" mask="url(#mask-4)"></path>
+                        <path d="M0.5,0.5 L143.5,85.5" id="Line-2-Copy" stroke="#D2D5DB" stroke-linecap="square" mask="url(#mask-4)" transform="translate(72.000000, 43.000000) scale(-1, 1) translate(-72.000000, -43.000000) "></path>
+                    </g>
+                    <path d="M173.742025,128.473346 L178.639742,129.607064 L172.342677,111.072153 L166.045612,129.607064 L170.943329,128.487959 L170.943329,137.742075 L173.742025,137.742075 L173.742025,128.473346 Z" id="Combined-Shape" fill="#D2D5DB" transform="translate(172.342677, 124.407114) rotate(-25.000000) translate(-172.342677, -124.407114) "></path>
+                    <path d="M195,17.5 L195,212.523076" id="Line-3" stroke="#D2D5DB" stroke-width="2" stroke-linecap="square"></path>
+                    <g id="Group-4" transform="translate(204.000000, 33.000000)">
+                        <rect id="Rectangle-11" stroke="#E4E6EA" x="0.5" y="0.5" width="21.7996918" height="17"></rect>
+                        <rect id="Rectangle-11-Copy" stroke="#E4E6EA" x="0.5" y="35.5" width="21.7996918" height="8.74805388" rx="4.37402694"></rect>
+                        <circle id="Oval-4" stroke="#E4E6EA" cx="44" cy="9" r="9"></circle>
+                        <g id="Group" transform="translate(33.000000, 31.000000)" fill="#E4E6EA">
+                            <rect id="Rectangle-3" x="0" y="0" width="22.2270409" height="3" rx="1.5"></rect>
+                            <rect id="Rectangle-3-Copy" x="0" y="7" width="22.2270409" height="3" rx="1.5"></rect>
+                            <rect id="Rectangle-3-Copy-2" x="0" y="14" width="11.1135205" height="3" rx="1.5"></rect>
+                        </g>
+                        <rect id="Rectangle-12" stroke="#E4E6EA" x="0.5" y="62.5" width="22" height="6"></rect>
+                        <rect id="Rectangle-12-Copy" stroke="#E4E6EA" x="0.5" y="71.5" width="22" height="6"></rect>
+                        <polygon id="Triangle-3" stroke="#E4E6EA" points="44 62 52 78 36 78"></polygon>
+                    </g>
+                    <g id="Group-4-Copy" transform="translate(232.000000, 166.000000) scale(-1, 1) translate(-232.000000, -166.000000) translate(204.000000, 127.000000)">
+                        <rect id="Rectangle-11" stroke="#E4E6EA" x="0.5" y="0.5" width="21.7996918" height="17"></rect>
+                        <rect id="Rectangle-11-Copy" stroke="#E4E6EA" x="0.5" y="35.5" width="21.7996918" height="8.74805388" rx="4.37402694"></rect>
+                        <circle id="Oval-4" stroke="#E4E6EA" cx="44" cy="9" r="9"></circle>
+                        <g id="Group" transform="translate(33.000000, 31.000000)" fill="#E4E6EA">
+                            <rect id="Rectangle-3" x="0" y="0" width="22.2270409" height="3" rx="1.5"></rect>
+                            <rect id="Rectangle-3-Copy" x="0" y="7" width="22.2270409" height="3" rx="1.5"></rect>
+                            <rect id="Rectangle-3-Copy-2" x="0" y="14" width="11.1135205" height="3" rx="1.5"></rect>
+                        </g>
+                        <rect id="Rectangle-12" stroke="#E4E6EA" x="0.5" y="62.5" width="22" height="6"></rect>
+                        <rect id="Rectangle-12-Copy" stroke="#E4E6EA" x="0.5" y="71.5" width="22" height="6"></rect>
+                        <polygon id="Triangle-3" stroke="#E4E6EA" points="44 62 52 78 36 78"></polygon>
+                    </g>
+                </g>
+                <g id="Group-Copy" transform="translate(98.000000, 157.000000)" fill="#E4E6EA">
+                    <rect id="Rectangle-3" x="0" y="0" width="61" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-3-Copy" x="0" y="7" width="61" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-3-Copy-2" x="0" y="14" width="27.9991149" height="3" rx="1.5"></rect>
+                </g>
+                <rect id="Rectangle-7" fill="#D2D5DB" x="98" y="134" width="71.7339121" height="8"></rect>
+                <rect id="Rectangle-8" fill="#E4E6EA" x="98" y="146" width="20" height="2" rx="1"></rect>
+                <g id="Group-2" transform="translate(246.000000, 151.000000)" stroke="#D2D5DB" stroke-width="3.6" fill="#FFFFFF">
+                    <path d="M12.3168486,31.3821071 C5.0363016,35.9710012 0,45.847056 0,57.2903226 C0,73.1106083 9.62587788,74 21.5,74 L21.5,74 C33.3741221,74 43,73.1106083 43,57.2903226 C43,46.099695 38.1836218,36.4078428 31.1620491,31.6937325" id="Oval-3"></path>
+                    <ellipse id="Oval-2" cx="21.4994714" cy="16.7091492" rx="16.7216936" ry="16.7091492"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

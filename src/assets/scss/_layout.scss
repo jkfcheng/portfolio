@@ -11,7 +11,6 @@ $global-section-padding: rem-calc(120);
 
 .header-card {
   height: 100%;
-  background-color: $white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,7 +39,7 @@ $global-section-padding: rem-calc(120);
     color: $landing-extra-dark;
     background-color: $landing-light;
     padding: 2rem;
-    padding-top: 6rem;
+    padding-top: 25vh;
   }
 
   .color-section {
