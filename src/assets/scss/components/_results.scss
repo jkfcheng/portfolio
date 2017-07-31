@@ -1,4 +1,15 @@
 .result-header {
   font-weight: 800;
+  margin-top: -1rem;
+  margin-bottom: 4rem;
+}
 
+.results-sketch {
+  @include breakpoint(medium) {
+    width: 80%;
+  }
+}
+
+.results-dotted {
+  border: 0.5px dashed $light-gray;
 }
