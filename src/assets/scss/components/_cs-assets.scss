@@ -15,3 +15,11 @@
 .sticky-img {
   width: 60%;
 }
+
+.research-list {
+  @include breakpoint(medium) {
+    margin-bottom: 0;
+  }
+  
+  margin-bottom: 4rem;
+}
