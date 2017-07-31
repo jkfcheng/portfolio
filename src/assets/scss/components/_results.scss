@@ -4,6 +4,11 @@
   margin-bottom: 4rem;
 }
 
+.result-subheader {
+  margin-top: -3rem;
+
+}
+
 .results-sketch {
   @include breakpoint(medium) {
     width: 80%;
