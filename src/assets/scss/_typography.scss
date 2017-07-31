@@ -1,14 +1,22 @@
 .section-title {
   color: $white;
-  text-transform: uppercase;
+  display: inline-block;
   font-weight: $global-weight-bold;
   font-size: rem-calc(14);
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
 }
 
 .button {
   font-weight: $global-weight-bold;
   padding-left: rem-calc(20);
   padding-right: rem-calc(20);
+  margin-bottom: 0;
+}
+
+.overview-text {
+  font-size: rem-calc(28);
+  font-weight: 300;
 }
 
 .landing {
