@@ -10,3 +10,15 @@ import Foundation from 'foundation-sites';
 
 
 $(document).foundation();
+
+//topbar
+var prev = 0;
+var $window = $(window);
+var nav = $('.top-bar-container');
+
+$window.on('scroll', function(){
+  var scrollTop = $window.scrollTop();
+  nav.toggleClass('hidden', scrollTop > prev);
+  prev = scrollTop;
+});
+
