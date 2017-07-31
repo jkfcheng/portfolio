@@ -7,3 +7,11 @@
 .scrolling-img img:not(:last-child) {
   margin-bottom: 1rem;
 }
+
+.sticky {
+  padding-bottom: rem-calc(120);
+}
+
+.sticky-img {
+  width: 60%;
+}

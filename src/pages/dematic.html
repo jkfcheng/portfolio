@@ -15,10 +15,10 @@
     <div class="row">
       <div class="columns medium-8">
         <span class="section-title">Overview</span>
-        <p class="overview-text">Dematic needed a new cost-estimation platform for their teams to compare solutions and make sales faster.</p>
+        <p class="overview-text">Dematic is a global leader in providing warehouse automation solutions for Amazon, etc. Their sales teams were ready to work faster than their estimation software could.</p>
       </div>
       <div class="columns medium-4">
-        <img src="" alt="logo" class="client-logo">
+        <img src="{{root}}assets/img/logos/dematic.png" alt="logo" class="client-logo">
         <span class="section-title">Role</span>
         <p>Primary Designer</p>
       </div>
@@ -26,14 +26,14 @@
   </section>
 
   <!--challenge-->
-  <section class="color-section">
+  <section class="color-section" id="dematic-challenge">
     <div class="row">
       <div class="columns medium-5 medium-offset-4">
         <span class="section-title">Challenge</span>
-        <p>How can we redesign GreenBits’ POS system to make an ever-expanding feature set is usable?</p>
+        <p>Dematic’s current solution was complicated and time-consuming to learn, dragging out the sales process over months and costing the company millions.</p>
       </div>
       <div class="columns">
-        <img src="" alt="challenge-img" class="challenge-img">
+        <img src="{{root}}assets/img/dematic/dematic-problem.png" alt="challenge-img" class="challenge-img">
       </div>
     </div>
   </section>
@@ -42,36 +42,21 @@
   <!--research-->
   <section class="white-section" id="dematic-research">
     <div class="row">
-      <div class="columns medium-6">
+      <div class="columns medium-5" data-sticky-container>
+        <div class="sticky" data-sticky data-margin-top='10' data-top-anchor="dematic-challenge:bottom" data-btm-anchor="dematic-research:bottom">
         <span class="section-title">Research</span>
-        <p>How can we redesign GreenBits’ POS system to make an ever-expanding feature set is usable?</p>
+        <p>The research process revealed the limitations of a spreadsheet approach to digesting complex datasets, and revealed three primary users the application needed to serve.</p>
         <ul class="research-list">
           <li class="research-item">Competitive Analysis</li>
           <li class="research-item">User Interviews</li>
           <li class="research-item">Stakeholder Interviews</li>
         </ul>
+        </div>
       </div>
-      <div class="columns medium-6">
-        <ul class="accordion" data-accordion>
-          <li class="accordion-item is-active" data-accordion-item>
-            <a href="#" class="accordion-title">Persona 1</a>
-            <div class="accordion-content" data-tab-content>
-              <img src="" alt="persona">
-            </div>
-          </li>
-          <li class="accordion-item" data-accordion-item>
-            <a href="#" class="accordion-title">Persona 2</a>
-            <div class="accordion-content" data-tab-content>
-              <img src="" alt="persona">
-            </div>
-          </li>
-          <li class="accordion-item" data-accordion-item>
-            <a href="#" class="accordion-title">Persona 2</a>
-            <div class="accordion-content" data-tab-content>
-              <img src="" alt="persona">
-            </div>
-          </li>
-        </ul>
+      <div class="columns medium-6 scrolling-img right">
+        <img class="white-img" src="{{root}}assets/img/dematic/dematic-persona-1.png" alt="">
+        <img class="white-img" src="{{root}}assets/img/dematic/dematic-persona-2.png" alt="">
+        <img class="white-img" src="{{root}}assets/img/dematic/dematic-persona-3.png" alt="">
       </div>
     </div>
   </section>
@@ -79,17 +64,19 @@
   <!--design sprint-->
   <section class="color-section" id="sprint-sticky">
     <div class="row">
-      <div class="columns medium-6">
-        <img src="" alt="image 1" style="height: 1000px; width: 100%;">
-
-      </div>
-      <div class="columns medium-6 right data-sticky-container">
+      <div class="columns medium-5 medium-push-7 right" data-sticky-container>
         <div class="sticky" data-sticky data-margin-top='10' data-top-anchor="dematic-research:bottom" data-btm-anchor="sprint-sticky:bottom">
           <span class="section-title">Design Sprint</span>
-          <p>How can we redesign GreenBits’ POS system to make an ever-expanding feature set is usable?</p>
-          <img src="" alt="spring process">
+          <p>I led a 5-day design sprint with Dematic’s many competing stakeholders to prototype and test a design solving their big problem - comparing sales “scenarios”.</p>
+          <img class="sticky-img" src="{{root}}assets/img/dematic/dematic-sprint.svg" alt="sprint process">
         </div>
-        
+      </div>
+      <div class="columns medium-6 medium-pull-6 scrolling-img">
+        <img src="{{root}}assets/img/dematic/dematic-sprint-1.png" alt="">
+        <img src="{{root}}assets/img/dematic/dematic-sprint-2.png" alt="">
+        <img src="{{root}}assets/img/dematic/dematic-sprint-3.png" alt="">
+        <img src="{{root}}assets/img/dematic/dematic-sprint-4.png" alt="">
+        <img src="{{root}}assets/img/dematic/dematic-sprint-5.png" alt="">
       </div>
     </div>
   </section>
@@ -97,66 +84,77 @@
   <!--results overview-->
   <section class="white-section">
     <div class="row column">
-      <span class="section-title">The Result</span>
-      <h2 class="result-header">FROM TABLES TO INTERFACE</h2>
+      <span class="section-title text-center">The Result</span>
+      <h2 class="result-header text-center">FROM TABLES TO INTERFACE</h2>
+      <img class="white-img" src="{{root}}assets/img/dematic/dematic-visual.png" alt="primary result image">
     </div>
-    <img src="" alt="primary result image">
+    
   </section>
 
   <!--Browse & Compare-->
   <section class="white-section">
     <div class="row">
       <div class="column medium-5">
-        <img src="" alt="result sketch">
         <span class="section-title">Browse And Compare Framework</span>
-        <p>How can we redesign GreenBits’ POS system to make an ever-expanding feature set is usable?</p>
+        <p>A Kanban-like approach to displaing data-objects allows for quicker comparison and more intuitive drilldown to details.</p>
       </div>
       <div class="column medium-6">
-        <img src="" alt="result image 1">
+        <img src="{{root}}assets/img/dematic/dematic-compare.svg" alt="result image 1">
       </div>
     </div>
   </section>
+
+  <div class="row column">
+    <hr class="results-dotted">
+  </div>
 
 
   <!--Action-Oriented navigation-->
   <section class="white-section">
     <div class="row">
-      <div class="column medium-6">
-        <img src="" alt="result image 2">
-      </div>
-      <div class="column medium-5">
-        <img src="" alt="result sketch">
+      <div class="column medium-5 medium-push-7">
         <span class="section-title">Action-Oriented Navigation</span>
-        <p>How can we redesign GreenBits’ POS system to make an ever-expanding feature set is usable?</p>
+        <p>To keep new users from digging through many menus, the architecture is flat, with all core actions grouped together as simple buttons.</p>
+        <img class="results-sketch" src="{{root}}assets/img/dematic/dematic-navigation-sketch.png" alt="result sketch">
+      </div>
+      <div class="column medium-6 medium-pull-6">
+        <img src="{{root}}assets/img/dematic/dematic-navigation.png" alt="result image 2">
       </div>
     </div>
   </section>
 
+  <div class="row column">
+    <hr class="results-dotted">
+  </div>
 
   <!--Powerful Asset Management-->
   <section class="white-section">
     <div class="row">
       <div class="column medium-5">
-        <img src="" alt="result sketch">
         <span class="section-title">Powerful Asset Management</span>
-        <p>How can we redesign GreenBits’ POS system to make an ever-expanding feature set is usable?</p>
+        <p>Visualizing project scenarios in a nested card structure lets users glance important metadata and creates a stronger visual tie to the data being displayed.</p>
+        <img class="results-sketch" src="{{root}}assets/img/dematic/dematic-asset-sketch.png" alt="result sketch">
       </div>
-      <div class="column medium-6">
-        <img src="" alt="result image 1">
+      <div class="column medium-4 medium-pull-1">
+        <img class="white-img" src="{{root}}assets/img/dematic/dematic-asset.png" alt="result image 1">
       </div>
     </div>
   </section>
 
+  <div class="row column">
+    <hr class="results-dotted">
+  </div>
+
   <!--Team Change Tracker-->
   <section class="white-section">
     <div class="row">
-      <div class="column medium-6">
-        <img src="" alt="result image 2">
-      </div>
-      <div class="column medium-5">
-        <img src="" alt="result sketch">
+      <div class="column medium-5 medium-push-7">
         <span class="section-title">Team Change Tracker</span>
-        <p>How can we redesign GreenBits’ POS system to make an ever-expanding feature set is usable?</p>
+        <p>An “updates” panel helps users always know what system updates or teammate changes are affecting their calculations, leading to faster troubleshooting.</p>
+        <img class="results-sketch" src="{{root}}assets/img/dematic/dematic-update-sketch.png" alt="result sketch">
+      </div>
+      <div class="column medium-4 medium-pull-7">
+        <img src="{{root}}assets/img/dematic/dematic-update.png" alt="result image 2">
       </div>
     </div>
   </section>
@@ -166,7 +164,7 @@
   <section class="color-section">
     <div class="row column">
       <span class="section-title">Feedback</span>
-      <p>Through user testing, users were able to complete all revelant activities in the new interface and 100% of users reported an increase in efficiency</p>
+      <span>Through user testing, users were able to complete all revelant activities in the new interface and 100% of users reported an increase in efficiency from before. My team was given the contract to start redesigning the other products in their suite.</span>
     </div>
   </section>
 
@@ -176,7 +174,7 @@
     <div class="row">
       <div class="columns medium-6">
         <span class="section-title">Next Project</span>
-        <h1>Personalizing for a new generation of shoppers</h1>
+        <h2>Personalizing for a new generation of shoppers</h2>
         <a href="tmw.html" class="button">See Case Study</a>
       </div>
     </div>
