@@ -1,17 +1,16 @@
 
-<div class="landing">
+<div class="landing" id="landing">
+{{> topbar}}
   <section class="header">
     <div class="row expanded collapse header-card">
       <div class="small-10 small-centered columns">
         <div class="row">
           <div class="medium-8 columns">
             <h1>Hi and Welcome! <br>My Name is John <br> I'm an Interaction Designer</h1>
+            <p>Let’s <a style="text-decoration-style: wavy;" href="http://zurb.com/blog/your-designs-aren-t-bad-but-your-conversa">partner</a> to solve big problems!</p>
           </div>
           <div class="medium-4 columns">
             <img src="http://placehold.it/400x200" alt="">
-          </div>
-          <div class="small-12 columns">
-            <p>Let’s <a href="http://zurb.com/blog/your-designs-aren-t-bad-but-your-conversa">partner</a> to solve big problems!</p>
           </div>
         </div>
       </div>
@@ -40,61 +39,49 @@
   </div>
 
   <!--green bits-->
-  <section class="color-section" id="first-work">
+  <section class="color-section greenbits-app" id="first-work">
     <div class="row">
       <div class="medium-5 columns">
-        <img src="" alt="logo" class="client-logo">
+        <a href="http://www.greenbits.com" target="_blank"><img class="client-logo" src="{{root}}assets/img/logos/greenbits.png" alt="Designation logo"></a>
         <h2>Project Title</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+        <p class="landing-product-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
         <a href="greenbits.html" class="button">See Case Study</a>
-      </div>
-      <div class="medium-7 columns">
-        <img src="" alt="app image" class="client-app">
       </div>
     </div>
   </section>
 
   <!--dematic-->
-  <section class="white-section">
+  <section class="white-section dematic-app">
     <div class="row">
       <div class="medium-5 columns">
-        <img src="" alt="logo" class="client-logo">
+         <a href="http://www.dematic.com" target="_blank"><img class="client-logo" src="{{root}}assets/img/logos/dematic.png" alt="Designation logo"></a>
         <h2>Project Title</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+        <p class="landing-product-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
         <a href="dematic.html" class="button">See Case Study</a>
-      </div>
-      <div class="medium-7 columns">
-        <img src="" alt="app image" class="client-app">
       </div>
     </div>
   </section>
 
   <!--Men's wearhouse-->
-  <section class="color-section">
+  <section class="color-section tmw-app">
     <div class="row">
       <div class="medium-5 columns">
-        <img src="" alt="logo" class="client-logo">
+         <a href="http://www.menswearhouse.com" target="_blank"><img class="client-logo" src="{{root}}assets/img/logos/tmw.png" alt="TMW logo"></a>
         <h2>Project Title</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+        <p class="landing-product-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
         <a href="tmw.html" class="button">See Case Study</a>
-      </div>
-      <div class="medium-7 columns">
-        <img src="" alt="app image" class="client-app">
       </div>
     </div>
   </section>
 
   <!--building blocks-->
-  <section class="white-section">
+  <section class="white-section bb-app">
     <div class="row">
       <div class="medium-5 columns">
-        <img src="" alt="logo" class="client-logo">
+         <a href="http://foundation.zurb.com/building-blocks/" target="_blank"><img class="client-logo" src="{{root}}assets/img/logos/foundation.png" alt="foundation logo"></a>
         <h2>Project Title</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+        <p class="landing-product-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
         <a href="building-blocks.html" class="button">See Case Study</a>
-      </div>
-      <div class="medium-7 columns">
-        <img src="" alt="app image" class="client-img">
       </div>
     </div>
   </section>
@@ -104,12 +91,12 @@
   <p class="word-divider">Some other companies I've partnered with</p>
   </div>
 
-  <div class="row small-up-3 medium-up-5">
-    <div class="column column-block"><img src="" alt="logo"></div>
-    <div class="column column-block"><img src="" alt="logo"></div>
-    <div class="column column-block"><img src="" alt="logo"></div>
-    <div class="column column-block"><img src="" alt="logo"></div>
-    <div class="column column-block"><img src="" alt="logo"></div>
+  <div class="row small-up-3 medium-up-5" data-equalizer>
+    <div class="column column-block company-container" data-equalizer-watch><a href="http://www.paloaltonetworks.com" target="_blank"><img src="{{root}}assets/img/logos/pan.png" alt="PAN logo"></a></div>
+    <div class="column column-block company-container" data-equalizer-watch><a href="http://www.libdib.com" target="_blank"><img src="{{root}}assets/img/logos/libdib.png" alt="Libdib logo"></div></a>
+    <div class="column column-block company-container" data-equalizer-watch><a href="http://www.designation.io" target="_blank"><img src="{{root}}assets/img/logos/designation.png" alt="Designation logo"></a></div>
+    <div class="column column-block company-container" data-equalizer-watch><a href="http://www.zurb.com/helio" target="_blank"><img src="{{root}}assets/img/logos/helio.png" alt="Helio logo"></a></a></div>
+    <div class="column column-block company-container" data-equalizer-watch><a href="http://www.medmatchjobs.com" target="_blank"><img src="{{root}}assets/img/logos/medmatch.png" alt="medmatch logo"></a></div>
   </div>
 
   <section class="footer">
