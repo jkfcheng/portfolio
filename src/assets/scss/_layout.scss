@@ -40,6 +40,18 @@ $global-section-padding: rem-calc(120);
     background-color: $landing-light;
     padding: 2rem;
     padding-top: 25vh;
+    @include breakpoint(large) {
+      background-image: url(../img/landing/header.png);
+      background-repeat: no-repeat;
+      background-size: auto 80%;
+      background-position: 90% bottom;
+    }
+    @include breakpoint(medium only) {
+      background-image: url(../img/landing/header.png);
+      background-repeat: no-repeat;
+      background-size: auto 80%;
+      background-position: 110% bottom;
+    }
   }
 
   .color-section {

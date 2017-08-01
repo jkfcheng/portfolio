@@ -1,4 +1,13 @@
+.landing-header-title {
+  font-weight: 300;
+  @include breakpoint (medium only) {
+    font-size: calc(5vw - 10px);
+  } 
+}
+
 .landing-header-subtitle {
-  font-size: rem-calc(18);
+  @include breakpoint (large) {
+    font-size: rem-calc(18);
+  }
 }
 
