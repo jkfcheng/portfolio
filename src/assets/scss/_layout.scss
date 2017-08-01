@@ -41,7 +41,7 @@ $global-section-padding: rem-calc(120);
     padding: 2rem;
     padding-top: 25vh;
     @include breakpoint(large) {
-      background-image: url(../img/landing/header.png);
+      background-image: url(../img/landing/header-alt.png);
       background-repeat: no-repeat;
       background-size: auto 80%;
       background-position: 90% bottom;
