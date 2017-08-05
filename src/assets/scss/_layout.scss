@@ -2,9 +2,6 @@
 $global-section-padding: rem-calc(120);
 
 .header {
-  @include breakpoint(medium) {
-    height: 70vh; 
-  }
 
   color: white;
 }
@@ -38,19 +35,29 @@ $global-section-padding: rem-calc(120);
   .header {
     color: $landing-extra-dark;
     background-color: $landing-light;
-    padding: 2rem;
-    padding-top: 25vh;
-    @include breakpoint(large) {
+    padding: 10rem 2rem 8rem;
+    @include breakpoint(xlarge) {
       background-image: url(../img/landing/header-alt.png);
       background-repeat: no-repeat;
-      background-size: auto 80%;
-      background-position: 90% bottom;
+      background-size: 30% auto;
+      background-position: 80% 60%;
+    }
+    @include breakpoint(large only) {
+      background-image: url(../img/landing/header-alt.png);
+      background-repeat: no-repeat;
+      background-size: 40% auto;
+      background-position: 90% 65%;
     }
     @include breakpoint(medium only) {
-      background-image: url(../img/landing/header.png);
+      background-image: url(../img/landing/header-alt.png);
       background-repeat: no-repeat;
-      background-size: auto 80%;
-      background-position: 110% bottom;
+      background-size: 40% auto;
+      background-position: 100% 65%;
+    }
+
+    @include breakpoint(medium) {
+      padding-top: 15vw;
+      padding-bottom: 15vw;
     }
   }
 
@@ -81,6 +88,7 @@ $global-section-padding: rem-calc(120);
     background-position: 10vw 25vh; 
     background-image: url(../img/greenbits/greenbits-header.png);
     background-repeat: no-repeat;
+    height: 70vh;
   }
 
   .color-section {
@@ -104,6 +112,7 @@ $global-section-padding: rem-calc(120);
     background-position: 35vw 15vh; 
     background-image: url(../img/dematic/dematic-header.png);
     background-repeat: no-repeat;
+    height: 70vh;
   }
 
   .color-section {
@@ -127,6 +136,7 @@ $global-section-padding: rem-calc(120);
     background-position: 10vw 25vh; 
     background-image: url(../img/tmw/tmw-header.png);
     background-repeat: no-repeat;
+    height: 70vh;
   }
 
   .color-section {
@@ -151,6 +161,7 @@ $global-section-padding: rem-calc(120);
     background-position: 35vw 15vh;  
     background-image: url(../img/bb/bb-header.png);
     background-repeat: no-repeat;
+    height: 70vh;
   }
 
   .color-section {
