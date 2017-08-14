@@ -4,7 +4,8 @@
 }
 
 
-.scrolling-img img:not(:last-child) {
+.scrolling-img img:not(:last-child),
+.scrolling-img a img {
   margin-bottom: 1rem;
 }
 
